@@ -1,0 +1,63 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+
+nav a {
+  background: transparent;
+  padding: 0.7rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg-variant);
+}
+
+nav button {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+nav button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: #dfcfb8;
+}
+
+@media screen and (max-width: 400px){
+  nav {
+    gap: 0rem;
+    width: 90%;
+    height: 8%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  nav a{
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+}
