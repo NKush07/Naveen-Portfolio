@@ -89,14 +89,6 @@ const Skill = () => {
             <article className="skill__details">
               <BsPatchCheckFill className="skill__details-icon" />
               <div>
-                <h4>Git</h4>
-                {/* <small className="text-light">skilld</small> */}
-              </div>
-            </article>
-
-            <article className="skill__details">
-              <BsPatchCheckFill className="skill__details-icon" />
-              <div>
                 <h4>API's</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
@@ -153,6 +145,22 @@ const Skill = () => {
               <div>
                 <h4>Linux</h4>
                 {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+
+            <article className="skill__details">
+              <BsPatchCheckFill className="skill__details-icon" />
+              <div>
+                <h4>Git</h4>
+                {/* <small className="text-light">skilld</small> */}
+              </div>
+            </article>
+
+            <article className="skill__details">
+              <BsPatchCheckFill className="skill__details-icon" />
+              <div>
+                <h4>GitHub</h4>
+                {/* <small className="text-light">skilld</small> */}
               </div>
             </article>
 
