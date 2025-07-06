@@ -4,16 +4,15 @@ import profile_picture from "../../assets/profile3.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 
-const About = ({picAbout}) => {
-
+const About = ({ picAbout }) => {
   return (
     <section id="about">
       <h5>Get to learn</h5>
       <h2>About Me</h2>
       <div className="container about__container">
-        <div className={`about__me ${picAbout ? '' : 'light'}`}>
+        <div className={`about__me ${picAbout ? "" : "light"}`}>
           <div className="about__me-image">
-            <img src={profile_picture} alt="Naveen's image"/>
+            <img src={profile_picture} alt="Naveen's image" />
           </div>
         </div>
         <div className="about__content">
@@ -30,27 +29,48 @@ const About = ({picAbout}) => {
             </article>
           </div>
           <p>
-            Hello! I’m Naveen Kushwaha, a passionate Full Stack
-            Developer with a deep interest in web applications and backend
-            solutions. With expertise in both frontend and backend technologies,
-            I strive to create innovative, scalable, and user-centric
-            applications that solve real-world problems. 
-            While also gaining hands-on experience as a Backend
-            Developer Intern at <a href="https://www.linkedin.com/company/aichefmaster/">AI MASTER CHEF</a>, where I have honed my
-            ability to design and optimize RESTful APIs,
-            integrate backend services, and collaborate
-            effectively within cross-functional teams.</p> 
+            <p>
+              Hello! I’m Naveen Kushwaha, a passionate Full Stack Developer with
+              a strong interest in building scalable web applications and robust
+              backend systems. Currently, I work at{" "}
+              <a
+                href="https://www.liznr.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Liznr
+              </a>{" "}
+              as a Full Stack Developer, where I contribute to developing
+              intelligent, AI-driven meeting solutions. My role involves working
+              across the stack using technologies like React, Django, and
+              RESTful APIs to deliver seamless and efficient user experiences.
+            </p>
 
-            <p> Driven by a passion for continuous learning and coding excellence, I
-            am always eager to take on new challenges. My goal is to leverage my
-            skills to contribute to cutting-edge projects and dynamic teams that
-            drive user engagement and business growth. When I’m not coding, I
-            enjoy exploring new technologies, collaborating with like-minded
-            individuals, and sharpening my skills on platforms like {" "}
-            <a href="https://www.hackerrank.com/profile/nkushwaha632">HackerRank</a> and {" "}
-             <a href="https://github.com/NKush07">GitHub</a>. Let’s connect and build something
-            amazing together!</p>
-          
+            <p>
+              Driven by a passion for continuous learning and clean code
+              practices, I’m always eager to take on new challenges. My goal is
+              to contribute to cutting-edge projects that drive user engagement
+              and business impact. When I’m not coding, I enjoy exploring new
+              technologies and sharpening my skills on{" "}
+              <a
+                href="https://www.hackerrank.com/profile/nkushwaha632"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                HackerRank
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://github.com/NKush07"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              . Let’s connect and build something great together!
+            </p>
+          </p>
+
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
